@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-image: url(../images/bat.jpg);
+	background-image: url(../images/sitebg.jpg);
 	min-height: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -10,13 +10,13 @@ body {
 nav {
 	display: flex;
 	align-items: center;
-	background-color: #333;
+	background-color: transparent;
 	padding: 10px;
 	margin: 0;
 }
 
 nav a {
-	color: white;
+	color: gray;
 	text-decoration: none;
 	padding: 10px;
 	margin-right: 10px;
@@ -472,8 +472,9 @@ flex-grow: 1;
 	color: #c57900;
 }
 
-.parent {
-
+.parent 
+{
+    padding-top: 5rem;
 }
 
 .child {
@@ -492,7 +493,7 @@ flex-grow: 1;
 
 #quick_links
 {
-
+    padding-top: 4rem;
 	padding-bottom:50px;
     padding-left: 28px;
 	
@@ -560,4 +561,33 @@ flex-grow: 1;
     color: white;
     text-align: center;
     height: 20%;
+}
+
+.download-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar
+{
+    position: fixed;
+    width: 100%;
+}
+
+.box .me
+{
+    width: 35%;
+}
+
+.me_div
+{   
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.box2
+{
+    height: 100%;
+    margin: 0;
 }
