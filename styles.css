@@ -855,3 +855,10 @@ p {
 	margin-top: 65px;
 	padding-left: 40px;
 }
+
+.cntimg
+{
+	width: auto;
+	height: 400px;
+	padding-left: 50px;
+}
