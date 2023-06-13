@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <title></title>
+</head>
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="index.html" data-after="Home">Home</a></li>
+            <li><a href="courses_page.html" data-after="Projects">Activities</a></li>
+            <li><a href="#projects" data-after="Projects">IoT</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+  <h1 class="contenth">Activity Summary: Identifying the Top 10 vulnerabilities Accoring to OWASP and IEEE.</h1>
+  <p class="contentp">
+    The following is a list of vulnerabilities according to OWASP, IEEE does not seem to have one.
+    Since this list has remained consistent since 2017, i have listed the vulnerabilities and possible mitigations for them.
+    The below measures are general recommendations and may need to be adapted based on specific application requirements and the technology stack in use. Additionally, security should be considered throughout the software development lifecycle, from design and coding to testing and deployment, to ensure a robust and secure application.
+    They are as follows:
+  </p>
+  <ul class="ansli">
+    <li>1.	<b>Injection:</b> Injection vulnerabilities occur when untrusted data is sent to an interpreter as part of a command or query, allowing an attacker to execute arbitrary commands. To mitigate this vulnerability, developers should adopt secure coding practices such as using parameterized queries, input validation, and input sanitization to prevent malicious input from being executed as code.</li>
+    <li>2.	<b>Broken Authentication:</b> This vulnerability encompasses issues with authentication and session management, such as weak password policies, session fixation, or improper handling of credentials. Preventive measures include using strong authentication mechanisms, implementing secure session management, enforcing secure password policies, and conducting regular security testing.</li>
+    <li>3.	<b>Sensitive Data Exposure:</b> Sensitive Data Exposure refers to situations where sensitive information, like passwords or credit card numbers, is not adequately protected. To mitigate this risk, sensitive data should be encrypted both in transit and at rest, secure protocols (such as HTTPS) should be used, and strong encryption algorithms should be employed for storage.</li>
+    <li>4.	<b>XML External Entities (XXE):</b> XXE vulnerabilities occur when an application parses XML input insecurely, potentially allowing attackers to read sensitive data or execute remote requests. Prevention involves disabling external entity processing, validating XML input against a strict schema, and using safe APIs or parsers that do not resolve external entities.</li>
+    <li>5.	<b>Broken Access Control:</b> This vulnerability involves the inadequate enforcement of authorization controls, allowing unauthorized users to access restricted functionality or data. Mitigation includes implementing proper access controls, validating user permissions on the server-side, and conducting regular access control audits.</li>
+    <li>6.	<b>Security Misconfigurations:</b> Security misconfigurations occur when systems are not securely configured, leading to vulnerabilities. Prevention involves following secure configuration guides for all platforms, applying patches and updates regularly, disabling unnecessary services, and implementing secure defaults.</li>
+    <li>7.	<b>Cross-Site Scripting (XSS):</b> XSS vulnerabilities allow attackers to inject malicious scripts into web pages viewed by other users, potentially leading to the theft of sensitive information. Mitigation techniques include input validation and sanitization, output encoding, and the use of secure coding practices, such as Content Security Policy (CSP) headers.</li>
+    <li>8.	<b>Insecure Deserialization:</b> Insecure deserialization vulnerabilities arise when applications deserialize untrusted data, leading to potential remote code execution or other attacks. To mitigate this vulnerability, developers should validate and sanitize input data, use integrity checks, implement strict type constraints, and avoid deserializing untrusted or unknown data.</li>
+    <li>9.	<b>Using Components with Known Vulnerabilities:</b> This vulnerability refers to the use of outdated or vulnerable software components or libraries. Mitigation involves keeping software dependencies up to date, monitoring for security advisories, using vulnerability databases, and conducting regular vulnerability scans.</li>
+    <li>10.	<b>Insufficient Logging and Monitoring:</b> Insufficient logging and monitoring make it difficult to detect and respond to security incidents or malicious activities. Mitigation includes implementing comprehensive logging mechanisms, defining log retention policies, enabling real-time monitoring and alerting, and performing regular log analysis.</li>
+  </ul>
+
+
+
+<h1 class="contenth">Reflective Piece</h1>
+<p class="contentp">Reflecting on the complexities of cybersecurity, we realize that it is a never-ending battle that requires constant vigilance and adaptation. The digital landscape is constantly evolving, with new threats emerging and technology advancing at a rapid pace. This ever-changing environment necessitates a multifaceted approach to cybersecurity that incorporates various elements to effectively address the challenges we face.
+
+    Technological innovation plays a crucial role in our cybersecurity efforts. As threats evolve, so must our defensive measures. Advancements in areas such as artificial intelligence, machine learning, and automation are key to developing proactive defense mechanisms that can detect and respond to emerging threats in real-time. By leveraging these technologies, we can enhance our ability to identify vulnerabilities, predict potential attacks, and deploy countermeasures promptly.</p>
+<p class="contentp">Collaboration is another vital aspect of effective cybersecurity. Given the interconnected nature of today's digital world, no single organization or entity can combat cyber threats alone. Public-private partnerships, information sharing platforms, and international cooperation are essential for exchanging threat intelligence, best practices, and mitigation strategies. By fostering collaboration among governments, businesses, academia, and the cybersecurity community, we can pool resources, expertise, and insights to stay one step ahead of cybercriminals.In conclusion, the complexities of cybersecurity demand our unwavering attention. By acknowledging the ongoing battle, embracing technological innovation, raising human awareness, fostering collaboration, and cultivating resilience, we can navigate the challenges and protect ourselves in this digital age. Let us forge ahead with a shared commitment to strengthen our defenses, develop a cybersecurity-conscious society, and embrace the collective responsibility to safeguard our digital future.</p>
+</body>
+</html>

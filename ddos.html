@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <title></title>
+</head>
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="index.html" data-after="Home">Home</a></li>
+            <li><a href="courses_page.html" data-after="Projects">Activities</a></li>
+            <li><a href="#projects" data-after="Projects">IoT</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+  <h1 class="contenth">Activity Summary: Performing a DDOS Attack Against a Target.</h1>
+  <p class="contentp">
+    For this experiment, i used a site that has inetentional vulnerabilities and is meant for security proffesionals to test
+    their skills. It is testphp.vulnweb.com. I will walk through the exact steps taken along with images of each step. Unfortunately 
+    this was an unsuccessful attack but the steps are the same regardless. We can start by finding the ip address of our target using the ping 
+    command. Below is the target.
+  </p>
+  <img src="victim.png" class="cntimg">
+  <p class="contentp">
+    Using the ping command to find the ip address:
+  </p>
+  <img src="checkingip.png" class="cntimg">
+  <p class="contentp">
+    Next, we start metasploit with root privelages and set it up. After this, we specify the ip address of the target as well as the port to use, and begin the attack.
+  </p>
+  <img src="setting.png" class="cntimg">
+  <p class="contentp">
+    We then begin a wireshark packet capture.
+  </p>
+  <img src="packetcapture.png" class="cntimg">
+  <p class="contentp">Ultimately, the attack was unsuccessful but the steps are illustrated above.</p>
+
+
+
+<h1 class="contenth">Reflective Piece</h1>
+<p class="contentp">Engaging in ethical hacking activities enables us to understand the vulnerabilities present in computer systems and networks. However, it is essential to adhere to responsible and legal practices. This reflective piece aims to highlight the lessons learned and the realization of the consequences after attempting an unsuccessful DDoS attack using Metasploit.Following the failed DDoS attempt, I had a profound realization of the potential consequences associated with such actions. DDoS attacks, even if performed within a controlled environment, have the potential to cause significant harm and disruption to individuals, organizations, and entire networks. Recognizing the potential legal and ethical ramifications, I became acutely aware of the importance of responsible use of technology and the need for ethical boundaries.This experience reinforced the importance of responsible and ethical conduct, emphasizing the need for continuous learning, adherence to legal guidelines, and an unwavering commitment to promoting the well-being of the digital ecosystem.</p>
+</body>
+</html>

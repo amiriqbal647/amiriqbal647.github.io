@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <title></title>
+</head>
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="index.html" data-after="Home">Home</a></li>
+            <li><a href="courses_page.html" data-after="Projects">Activities</a></li>
+            <li><a href="#projects" data-after="Projects">IoT</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+  <h1 class="contenth">Activity Summary: Setting up And Testing a Honeypot Using Pentbox.</h1>
+  <p class="contentp">The page outlines the process of deploying a honeypot using Pentbox, a penetration testing tool, within the Kali Linux operating system. The honeypot is designed to attract potential attackers,
+     gather information about their techniques, and enhance overall network security. The images and information below highlight the steps taken to 
+    acheive this</p>
+  <p class="contentp">When you run the ifconfig command in a terminal, it displays information about the active network interfaces on your system, such as Ethernet adapters (e.g., eth0) or wireless interfaces (e.g., wlan0). The output includes details about
+     the network interface configuration, 
+     including the IP address, MAC address, network mask, broadcast address, and other relevant parameters.</p>
+    <img src="if.png" class="cntimg" >
+<p class="contentp"> Once this address is determined, we can move on to changing the directory to the pentbox package.
+    After this, we can run the ruby file for pentbox and follow the instructions. After setting the port, we should see
+    the terminal window success message like the one below.
+</p>
+<img src="activated.png" class="cntimg">
+<p class="contentp">After this, we can attempt to attack the honeypot. This is done by attempting to access the address we noted earlier form
+    the ifconfig. In this case it was 192.168.252.128. Once this is complete, we get the message indicating a failure to get a secure
+    connection.
+</p>
+<img src="firefox.png" class="cntimg">
+<p class="contentp">
+    As we attempt to access the honeypot, we also get a message in the terminal indicating there was an attack attempt on the honeypot. this is also stored
+    in the log file, which will be in the default location specified earlier.
+</p>
+<img src="attempt.png" class="cntimg">
+<h1 class="contenth">Reflective Piece</h1>
+<p class="contentp">Setting up a honeypot using Pentbox in Kali Linux was an enlightening experience that provided valuable insights into the world of network security. This reflective piece aims to encapsulate my journey, observations, and personal growth throughout this endeavor.
+    From the outset, the notion of deploying a honeypot intrigued me. The opportunity to create an enticing environment to observe and analyze potential attacks ignited my curiosity. As I delved into the installation and configuration process, I realized the importance of having a solid foundation in Kali Linux. It required attention to detail and a meticulous approach to ensure the proper setup of both the operating system and Pentbox itself.
+    Throughout this project, I encountered one main challenge that pushed me to expand my knowledge and problem-solving skills. The default pentbox package had been long since deprecated and I had to go online to look for a version that I could use.
+    </p>
+<p class="contentp">One of the most significant takeaways from this experience was the realization of the constant evolution and sophistication of cyber threats. The observations made within the honeypot environment shed light on emerging attack vectors and emphasized the necessity of proactive security measures. The exercise served as a reminder that vigilance and continuous improvement are essential in the ever-changing landscape of cybersecurity.
+    Moreover, this honeypot deployment demonstrated the importance of ethical considerations in cybersecurity practices. Obtaining appropriate permissions and adhering to legal and ethical boundaries are crucial when conducting activities that involve potentially sensitive or vulnerable systems.
+    In conclusion, the process of setting up a honeypot using Pentbox in Kali Linux provided an eye-opening exploration into the realm of network security. The exercise broadened my understanding of potential threats, enhanced my technical skills, and deepened my appreciation for the importance of proactive defense measures. This hands-on experience has undoubtedly contributed to my growth as a cybersecurity enthusiast, leaving me eager to continue exploring and contributing to the ever-evolving field of information security.
+    </p>
+</body>
+</html>

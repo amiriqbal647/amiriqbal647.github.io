@@ -862,3 +862,26 @@ p {
 	height: 400px;
 	padding-left: 50px;
 }
+
+.ansli {
+    /* CSS styles for the unordered list with class "ansli" */
+    /* Example styles */
+    list-style-type: none;
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-right: 40px; 
+	color: #485563;/* Remove bullet points */
+  }
+  
+  .ansli li {
+    /* CSS styles for the list items within "ansli" */
+    /* Example styles */
+    font-size: 14px;
+	line-height: 2;
+  }
+
+  .tablediv
+  {
+	width: 100%;
+	align-items: center;
+  }
